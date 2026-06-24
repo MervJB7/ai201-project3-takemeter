@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw/intermediate data you may not want to track (optional — remove if you DO
+# want these in the repo; your FINAL labeled CSV should be committed)
+nba_comments_raw.csv
+nba_comments_prelabeled.csv
